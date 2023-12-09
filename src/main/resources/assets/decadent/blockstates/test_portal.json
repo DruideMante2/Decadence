@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "decadent:block/test_portal_ew"
+    },
+    "axis=x": {
+      "model": "decadent:block/test_portal_ns"
+    }
+  }
+}

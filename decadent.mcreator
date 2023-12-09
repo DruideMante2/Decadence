@@ -9,6 +9,45 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Test",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/decadent/blockstates/test_portal.json",
+          "src/main/resources/data/decadent/dimension/test.json",
+          "src/main/java/net/mcreator/decadent/world/teleporter/TestPortalShape.java",
+          "src/main/java/net/mcreator/decadent/world/dimension/TestDimension.java",
+          "src/main/java/net/mcreator/decadent/block/TestPortalBlock.java",
+          "src/main/resources/assets/decadent/models/block/test_portal_ew.json",
+          "src/main/resources/assets/decadent/models/block/test_portal_ns.json",
+          "src/main/resources/data/decadent/dimension_type/test.json",
+          "src/main/java/net/mcreator/decadent/world/teleporter/TestTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "Example",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "example",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/decadent/procedures/ExampleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
